@@ -1,0 +1,47 @@
+
+
+.nav-top{
+    background: var(--black);
+}
+
+.nav-top > .container > ul {
+    display: flex;
+    padding:4px;
+
+}
+.nav-top > .container > ul > li > a, .sub > a{
+    color:var(--white);
+    font-size: 12px;
+    display: block;
+    padding:6px;
+    letter-spacing: 2;
+    border-bottom: 1px solid transparent;
+    transition:.5s;
+}
+.nav-top > .container > ul > li > a:hover, .sub > a:hover{
+    border-bottom: 1px solid var(--white);
+    font-weight: bold;
+}
+
+.nav-logo{
+    text-align: center;
+    padding-top:20px;
+    letter-spacing: 2;
+}
+
+.nav-bottom > ul{
+    display: flex;
+    margin-top:20px;
+}
+
+.nav-bottom > ul > li > a {
+    display: block;
+    padding:4px 12px;
+    transition:.5s;
+
+}
+.nav-bottom > ul > li > a:hover{
+    /* border-bottom: 1px solid var(--black); */
+    color:var(--main);
+    font-weight: bold;
+}
